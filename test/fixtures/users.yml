@@ -710,8 +710,8 @@ kimuramitai:
   updated_at: "2022-03-28 00:00:01"
   created_at: "2022-03-28 00:00:01"
 
-no-company-kensyu: # 所属企業のない研修生
-  login_name: no-company-kensyu
+nocompanykensyu: # 所属企業のない研修生
+  login_name: nocompanykensyu
   email: no-company-kensyu@fjord.jp
   crypted_password: $2a$10$n/xv4/1luueN6plzm2OyDezWlZFyGHjQEf4hwAW1r3k.lCm0frPK. # testtest
   salt: zW3kQ9ubsxQQtzzzs4ap
