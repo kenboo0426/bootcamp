@@ -288,7 +288,6 @@ kensyu:
   experience: rails
   organization: 研修大学
   trainee: true
-  training_ends_on: "2022-04-01"
   free: true
   unsubscribe_email_token: VbTzzFj5oO4zHqOURnO4qA
   updated_at: "2014-01-01 00:00:11"
@@ -687,25 +686,25 @@ enchoowata:
   updated_at: "2021-09-01 00:00:00"
   created_at: "2021-09-01 00:00:00"
 
-kimuramitai:
-  login_name: kimuramitai
-  email: kimuramitai@fjord.jp
+no-company-kensyu: # 所属企業のない研修生
+  login_name: no-company-kensyu
+  email: no-company-kensyu@fjord.jp
   crypted_password: $2a$10$n/xv4/1luueN6plzm2OyDezWlZFyGHjQEf4hwAW1r3k.lCm0frPK. # testtest
   salt: zW3kQ9ubsxQQtzzzs4ap
-  name: Kimura Mitai
-  name_kana: キムラ ミタイ
-  github_account: kimuragithub
-  discord_account: kimuradiscord#1234
-  twitter_account: kimuratwitter
-  facebook_url: http://www.facebook.com/kimurafacebook
-  blog_url: http://kimurablog.org
-  description: "木村さんに似ているとよく言われます。"
+  name: 研修　会社無男
+  name_kana: ケンシュウ カイシャナシオ
+  discord_account: no-company-kensyu#9999
+  github_account: no-company-kensyu
+  twitter_account: no-company-kensyu
+  facebook_url: https://www.facebook.com/fjordllc
+  blog_url: http://no-company-kensyu.org
+  description: "所属企業がない研修生です。"
   course: course1
   job: office_worker
   os: mac
-  experience: inexperienced
-  prefecture_code: 13
-  organization: 木村そっくり大学
-  unsubscribe_email_token: k6Da-oL3cRi8ApNFO9-Gcg
-  updated_at: "2022-03-28 00:00:01"
-  created_at: "2022-03-28 00:00:01"
+  experience: rails
+  trainee: true
+  free: true
+  unsubscribe_email_token: VbTzzFj5oO4zHqOURnO4qA
+  updated_at: "2014-01-01 00:00:11"
+  created_at: "2014-01-01 00:00:11"
