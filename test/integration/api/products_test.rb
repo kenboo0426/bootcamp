@@ -54,4 +54,14 @@ class API::ProductsTest < ActionDispatch::IntegrationTest
     actual = response.parsed_body['products'].map { |product| product['practice']['title'] }
     assert_equal expected, actual
   end
+
+  test 'return correct number of products' do
+    token = create_token('komagata', 'testtest')
+    get api_products_unassigned_index_path(format: :json),
+        headers: { 'Authorization' => "Bearer #{token}" }
+
+    expected = products(:product8, :product10, :product11, :product12, :product13, :product14).map.count
+    actual = response.parsed_body['products_grouped_by_elapsed_days'].find { |i| i['elapsed_days'] == 7 }['products'].count
+    assert_equal expected, actual
+  end
 end
